@@ -36,7 +36,7 @@
             <div class="container-lg bg-dark rounded-3">
 
                 <a href="#" class="navbar-brand ps-5 text-md-center">
-                    <span class="text-warning ps-5">Elegant</span>
+                    <span class="text-info ps-3 fw-bold fs-2">Elegant</span>
                     <span class="text-muted">Convention Center</span>
                 </a>
 
@@ -71,13 +71,12 @@
                         <img src="./images/banner.png" width="100%" height="600px" alt="">
                         <!-- Carousel Caption -->
                         <div class="carousel-caption">
-                            <h1>The perfect service Provider for your special event</h1>
+                            <h1 class="fs-1">The perfect service Provider for your special event</h1>
 
-                            <p>It's a one stop service provider for your wedding, reception, Corporate Meetings and many
-                                more at an affordable price.</p>
+                            <p class="lead">Giving the best services to our clients is our goal. We manage every aspects of our clients so they can have the best memories of their special day.</p>
 
                             <a href="https://getbootstrap.com/" target="_blank"
-                                class="btn btn-outline-warning text-white bg-secondary">
+                                class="btn btn-info text-dark bg-info">
                                 Book Now</a>
                         </div>
 
@@ -94,7 +93,7 @@
                                 more at an affordable price.</p>
 
                             <a href="https://getbootstrap.com/" target="_blank"
-                                class="btn btn-outline-warning text-white bg-secondary">
+                                class="btn btn-info text-dark bg-info">
                                 Book Now</a>
                         </div>
 
@@ -111,7 +110,7 @@
                                 more at an affordable price.</p>
 
                             <a href="https://getbootstrap.com/" target="_blank"
-                                class="btn btn-outline-warning text-white bg-secondary">
+                                class="btn btn-info text-dark bg-info">
                                 Book Now</a>
                         </div>
 
@@ -149,10 +148,8 @@
     <!-- Main starts -->
     <main>
 
-
-
         <!-- Alert/Toast Section -->
-        <div class="container d-flex justify-content-between">
+        <div class="container-xxl d-flex justify-content-between">
             <div>
 
             </div>
@@ -176,18 +173,20 @@
         <section class="" id="packages">
 
             <div class="container">
-                <h2 class="text-center pb-5">Our Package</h2>
+                <h2 class="text-center md:pb-5">Our Package</h2>
 
-                <div class="d-flex flex-wrap align-items-end justify-content-center mt-5 gap-3 flex-md-nowrap">
+                <!-- At first i did it using flex-> faced several issues while doing responsive (wrapping problems) then tried grid. flex-classes -> ::: d-flex flex-wrap align-items-end justify-content-center flex-md-nowrap -->
+
+                <div class="row align-items-end mt-5 gy-5">
 
                     <!-- Card 1 -->
-                    <div class="">
+                    <div class="col-md-6 col-xl-3">
                         <div class="card border-3 rounded-3 shadow-lg">
                             <div class="card-body text-start p-3">
 
                                 <p class="fw-bold fs-3 text-deep-blue">$300</p>
                                 <p class="fw-bold fs-5 text-deep-blue">Business fair</p>
-                                <!-- Used a custom color text-deep-blue:#231D4F;. Added in style.css -->
+                                <!-- Used a custom color text-deep-blue:#231D4F;. Added in css/style.css -->
 
                                 <p class="fs-6 text-muted">
                                     For most businesses event
@@ -238,7 +237,7 @@
                         </div>
                     </div>
                     <!-- Card 2 -->
-                    <div class="">
+                    <div class="col-md-6 col-xl-3">
                         <div class="card border-3 rounded-3 shadow-lg">
                             <div class="card-body text-start p-3">
 
@@ -295,7 +294,7 @@
                         </div>
                     </div>
                     <!-- Card 3 -->
-                    <div class="position-relative p-2">
+                    <div class="col-md-6 col-xl-3 position-relative p-2">
 
                         <span class="badge bg-danger position-absolute top-0 start-50 rounded-pill py-2 z-index-1"> Most
                             Famous</span>
@@ -358,7 +357,7 @@
                         </div>
                     </div>
                     <!-- Card 4 -->
-                    <div class="">
+                    <div class="col-md-6 col-xl-3">
                         <div class="card border-3 rounded-3 shadow-lg">
                             <div class="card-body text-start p-3">
 
@@ -546,12 +545,12 @@
 
             <div class="d-flex flex-column justify-content-center">
                 <p class="mb-0">Copyright &copy; 2022 <span
-                        class="fw-bold text-warning">Elegant</span>-Convention-Center.</p>
+                        class="fw-bold text-info fw-bold fs-2">Elegant</span>-Convention-Center.</p>
                 <p class="mt-1">All Rights Reserved</p>
             </div>
 
             <div class="d-flex flex-column my-5">
-                <p class="mb-2">Get The App</p>
+                <p class="mb-2 text-info">Get The App</p>
 
                 <a href="" class="mb-2">
                     <img src="./images/Google Play Badge.png" alt="">
