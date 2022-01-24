@@ -19,6 +19,9 @@ section{
 .text-deep-blue{
     color: #231D4F;
 }
+.bg-color-footer{
+    background-color: #0B0D17;
+}
 /*  */
 .rounded-25{
     border-radius: 25px;
