@@ -31,9 +31,41 @@
     <!-- header Starts -->
     <header>
         <!-- Navbar Starts -->
-        <nav class="navbar">
+        <nav class="navbar navbar-expand-md bg-color-footer navbar-dark py-3 fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand ps-5 text-md-center">
+                    <span class="text-info ps-3 fw-bold fs-2">Elegant</span>
+                    <span class="text-muted">Convention Center</span>
+                </a>
 
-            <div class="container-lg bg-dark rounded-3">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon">
+
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navmenu">
+
+                    <ul class="navbar-nav ms-auto">
+                        <li class="list-item">
+                            <a href="#packages" class="nav-link">Packages</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#questions" class="nav-link">Q&A</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#location" class="nav-link">Location</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+        <!-- <nav class="navbar">
+
+            <div class="container-lg rounded-3">
 
                 <a href="#" class="navbar-brand ps-5 text-md-center">
                     <span class="text-info ps-3 fw-bold fs-2">Elegant</span>
@@ -41,7 +73,8 @@
                 </a>
 
             </div>
-        </nav>
+        </nav> -->
+
         <!-- Navbar Ends -->
         <!-- Carousel Starts -->
         <section class="container-xxl" id="carousel">
@@ -423,7 +456,7 @@
 
         <!-- Frequently Asked Questions Section -->
 
-        <section id="asked-questions">
+        <section id="questions">
             <h1 class="text-center mb-5 fw-bold text-info">Frequently asked questions</h1>
 
             <div class="container-lg">
@@ -504,7 +537,7 @@
         <!-- Section for Bonus: Contact Information and map from : mapbox.com -->
         <!-- Learnt map addition from a youtube video -->
 
-        <section class="p-5">
+        <section class="p-5" id="location">
             <div class="container">
                 <div class="row g-4">
 

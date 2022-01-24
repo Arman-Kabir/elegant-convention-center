@@ -1,10 +1,14 @@
-
-
 /* Google Font Used */
 body{
     background-color: #fff;
     font-family: 'Poppins', sans-serif;
 }
+/* To take the carousel a little below */
+body::before {
+    display: block;
+    content: "";
+    height: 60px;
+  }
 section{
     margin: 0 0 100px 0;
     /* Every section is given margin-bottom: 100px; to have a consistent design  */
