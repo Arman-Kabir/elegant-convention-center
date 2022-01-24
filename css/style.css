@@ -2,5 +2,10 @@
 
 /* Google Font Used */
 body{
+    
     font-family: 'Poppins', sans-serif;
+}
+section{
+    margin: 0 0 100px 0;
+    /* Every section is given margin-bottom: 100px; to have a consistent design  */
 }
