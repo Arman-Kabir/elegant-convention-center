@@ -9,31 +9,34 @@ section{
     margin: 0 0 100px 0;
     /* Every section is given margin-bottom: 100px; to have a consistent design  */
 }
-#carousel{
+/* #carousel{
     z-index: 20;
     background-color: black;
     background-blend-mode: multiply;
     padding: 0px;
-}
+} */
+/* Left side border of toast */
 #alert-div-border{
     border-left: 6px solid #007CFF;
 }
+/* To keep the badge on top z-index used */
 .z-index-1{
     z-index:66;
 }
+/* spacing for map  */
 #map {
     width: 100%;
     height: 100%;
     border-radius: 10px;
   }
-
+/* Color from figma Used. Card title and footer color below */
 .text-deep-blue{
     color: #231D4F;
 }
 .bg-color-footer{
     background-color: #0B0D17;
 }
-/*  */
+/* To make the 3rd card more rounded */
 .rounded-25{
     border-radius: 25px;
 }
