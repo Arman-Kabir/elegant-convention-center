@@ -18,6 +18,9 @@ section{
 #alert-div-border{
     border-left: 6px solid #007CFF;
 }
+.z-index-1{
+    z-index:66;
+}
 #map {
     width: 100%;
     height: 100%;
