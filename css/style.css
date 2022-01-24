@@ -2,10 +2,14 @@
 
 /* Google Font Used */
 body{
-    
+    background-color: #E5E5E5;
     font-family: 'Poppins', sans-serif;
 }
 section{
     margin: 0 0 100px 0;
     /* Every section is given margin-bottom: 100px; to have a consistent design  */
+}
+
+.text-deep-blue{
+    color: #231D4F;
 }
