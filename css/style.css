@@ -9,6 +9,12 @@ section{
     margin: 0 0 100px 0;
     /* Every section is given margin-bottom: 100px; to have a consistent design  */
 }
+#carousel{
+    z-index: 20;
+    background-color: black;
+    background-blend-mode: multiply;
+    padding: 0px;
+}
 
 .text-deep-blue{
     color: #231D4F;
