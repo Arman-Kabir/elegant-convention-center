@@ -13,3 +13,7 @@ section{
 .text-deep-blue{
     color: #231D4F;
 }
+/*  */
+.rounded-25{
+    border-radius: 25px;
+}
